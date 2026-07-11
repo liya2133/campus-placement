@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewReg = () => {
      const [data, changeData ] = useState([])
@@ -21,8 +22,9 @@ const ViewReg = () => {
 
   return (
     <div>
-       
+        <NavBar />
         <div className="container mt-4">
+           
             <br></br>
                 <h1><b><i>VIEW REGISTRATIONS</i></b></h1>
                 <br />
