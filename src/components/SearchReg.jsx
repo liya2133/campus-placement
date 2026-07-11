@@ -1,10 +1,11 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 
 const SearchReg = () => {
   return (
     <div>
-
+<NavBar />
      <div className="container"><br></br><br></br>
         <h1><center>SEARCH FOR REGISTRATION</center></h1><br></br>
         <div className="row">

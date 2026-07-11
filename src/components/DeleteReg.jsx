@@ -1,10 +1,11 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 
 const DeleteReg = () => {
   return (
     <div>
-     
+     <NavBar />
      <div className="container"><br></br><br></br>
         <h1><center>DELETE REGISTRATION</center></h1><br></br>
         <div className="row">
