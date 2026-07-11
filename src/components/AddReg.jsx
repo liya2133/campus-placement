@@ -1,0 +1,76 @@
+import React from 'react'
+
+
+
+const AddReg = () => {
+  return (
+    <div>
+  
+        <div className="container">
+            <div className="row">
+                <h1><b>ADD REGISTRATION</b></h1>
+                <br></br>
+                <div className="col col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div className="row g-3">
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label"> Registration Number</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label"> Full Name</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label">Aadhar Numbe</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label"> Email Address</label>
+                            <input type="email" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label">Phone Numbe</label>
+                            <input type="tel" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label"> Branch/Departmente</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <label htmlFor="" className="form-label"> SSLC Mark %</label>
+                            <input type="text" className="form-control" />
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                           <label htmlFor="" className="form-label"> Plus Two Mark %</label>
+                            <input type="text" className="form-control" /> 
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                           <label htmlFor="" className="form-label"> UG Degree Name</label>
+                            <input type="text" className="form-control" /> 
+                        </div>
+                         <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                           <label htmlFor="" className="form-label">  Mark %</label>
+                            <input type="text" className="form-control" /> 
+                        </div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                             <label htmlFor="" className="form-label"> PG Degree Name</label><br></br>
+                              <input type="text" className="form-control" /> 
+                                     
+                        </div>
+
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                           <label htmlFor="" className="form-label">  Mark % </label>
+                            <input type="text" className="form-control" /> 
+                        </div>
+                        <div className="col col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                           <button className="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default AddReg
